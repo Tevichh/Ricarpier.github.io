@@ -21,7 +21,7 @@ header{
 
 .container__header{
 
-	max-width: 1000px;
+	width: 1000px;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -81,7 +81,7 @@ nav ul li a{
 /*DIVISIONES CON MARCA*/
 
 .containerDivision{
-	max-width: 1000px;
+	width: 1000px;
 	background: #c79325;
 	margin: auto;	
 }
@@ -96,7 +96,7 @@ nav ul li a{
 /*PUBLICACIONES MARCA*/
 
 .container__brand{
-	max-width: 1000px;
+	width: 1000px;
 	height: 450px;
 	background: #faf0e6;
 	margin: auto;
