@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+*{
+	text-decoration: none;
+	font-weight: normal;
+
+}
+
+body{
+		background-image: url(fondo-textura-madera-marron-claro_53876-75016.jpg);
+}
+
+/*NAV*/
+
+header{
+	width: 100%;
+	height: 100px;
+	top: 30px;
+	right: 0;
+	margin: 10px 0 auto auto;
+}
+
+.container__header{
+
+	max-width: 1000px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 0px 20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: #faf0e6;
+	
+}
+
+header .logo{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.logo h3 {
+	font-family: 'The Nautigal', cursive;
+	font-size: 64px;
+	font-weight: bold;
+	color: #a52a2a;
+}
+
+.container__nav{
+	position: relative;
+	height: 100%;
+}
+
+nav{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li{
+	list-style: none;
+	font-size: 20px;
+	margin: 0 20px;}
+nav ul li a:hover{
+	font-size: 25px;
+}
+
+nav ul li a{
+	color: #a52a2a;
+}
+
+
+/*DIVISIONES CON MARCA*/
+
+.containerDivision{
+	max-width: 1000px;
+	background: #c79325;
+	margin: auto;	
+}
+
+.containerDivision--division{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+/*PUBLICACIONES MARCA*/
+
+.container__brand{
+	max-width: 1000px;
+	height: 450px;
+	background: #faf0e6;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+/*PUBLICACIONES MARCA CARD*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+.container__brand--card {
+
+	height: 80%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	
+
+
+	
+}
+
+.container__brand--card-Logo h3{
+
+	font-size: 150px;
+	font-family: 'The Nautigal', cursive;
+	color: #a52a2a;
+	font-weight: bold;
+	font-weight: normal;
+	padding-top: 30px;
+
+	
+
+}
+
+.container__brand--card-Texto{
+
+	text-align: center;
+	padding-top: 30px;
+	height: 50%;
+
+}
+
+
+
+
+/*PUBLICACIONES MARCA IMAGES*/
+.container__brand--images {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	position: relative;
+	
+	
+}
+
+.container__brand--images img{
+
+	object-fit: cover;
+	
+
+}
+
+/*FOOTER*/
