@@ -166,3 +166,28 @@ nav ul li a{
 }
 
 /*FOOTER*/
+
+
+@media screen and (max-device-width:640px){
+
+	body{
+		padding: 20px;
+	}
+	.container__header{
+		width: 600px;
+	}
+
+	.container__header a{
+		font-size: 14px;
+	}
+
+
+	.containerDivision{
+		width: 600px;	
+	}
+
+	.container__brand{
+		width: 600px;
+	}
+
+}
